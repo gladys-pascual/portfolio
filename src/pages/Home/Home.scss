@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  flex-direction: column;
+
+  .my-name,
+  .job {
+    display: flex;
+    justify-content: center;
+    h1,
+    h2 {
+      margin: 10px;
+      animation: 4s ease 0s 1 normal none running welcomeAnim;
+    }
+  }
+  .my-name {
+    padding-top: 15vh;
+    font-size: calc(10px + 4vw);
+    h1 {
+      font-family: "Kaushan Script", cursive;
+      color: #6d6875;
+    }
+  }
+  .job {
+    h2 {
+      font-size: calc(5px + 3vw);
+      font-family: "Amatic SC", cursive;
+      font-family: "Itim", cursive;
+      color: #b5838d;
+    }
+  }
+}
+
+@keyframes welcomeAnim {
+  0% {
+    font-size: calc(10px + 2vw);
+  }
+}

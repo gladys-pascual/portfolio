@@ -1,0 +1,49 @@
+* {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.content {
+  margin: 4px;
+  padding: 0px 8px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  li {
+    margin: 30px;
+    a {
+      text-decoration: none;
+      color: #6d6875;
+      font-size: 20px;
+    }
+  }
+  .active {
+    background-color: #ffcdb2;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
+.pics-skills-tools-container {
+  width: 250px;
+  border: 1px solid black;
+}
+
+.my-pic {
+  width: 200px;
+  img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+/* Footer start */
+
+/* Footer end */
