@@ -1,0 +1,20 @@
+@import "../../assets/variables.scss";
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  li {
+    margin: 30px;
+    a {
+      color: #6d6875;
+      font-size: 20px;
+    }
+  }
+  .active {
+    background-color: $hover-color;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+  }
+}

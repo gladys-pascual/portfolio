@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss"
+import "./Home.scss";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
         <h1> Gladys Pascual </h1>
       </div>
       <div className="job">
-        <h2> Front-End Developer</h2>
+        <h2> Software Developer</h2>
       </div>
     </section>
   );

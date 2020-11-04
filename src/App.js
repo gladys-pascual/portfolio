@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.scss";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Projects from "./components/Projects";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import AboutMe from "./pages/AboutMe/AboutMe";
+import Projects from "./pages/Projects/Projects";
+import Blog from "./pages/Blog/Blog";
+import Contact from "./pages/Contact/Contact";
 import { Switch, Route } from "react-router-dom";
-import Footer from "./pages/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -25,8 +25,6 @@ const App = () => {
       <Footer />
     </>
   );
-}
-
-
+};
 
 export default App;

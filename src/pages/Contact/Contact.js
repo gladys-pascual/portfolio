@@ -1,9 +1,10 @@
 import React from "react";
+import ContactMeCard from "../../components/ContactMeCard/ContactMeCard";
 
 const Contact = () => {
   return (
     <section>
-      <h1> Contact Me</h1>
+      <ContactMeCard />
     </section>
   );
 };

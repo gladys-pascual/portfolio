@@ -1,0 +1,109 @@
+@import "../../assets/variables.scss";
+
+.flip-card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  .flip-card {
+    .flip-card-front {
+      width: 500px;
+      height: 270px;
+      background-color: rgb(252, 240, 239);
+      box-shadow: rgb(136, 136, 136) 10px 10px 8px;
+      display: flex;
+      flex-direction: column;
+      @media screen and (max-width: 500px) {
+        width: 330px;
+        height: 420px;
+        justify-content: center;
+      }
+      .card-title {
+        padding-top: 20px;
+      }
+    }
+    .flip-card-back {
+      width: 500px;
+      height: 270px;
+      background-color: rgb(252, 240, 239);
+      box-shadow: rgb(136, 136, 136) 10px 10px 8px;
+      justify-content: space-between;
+      padding: 20px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      @media screen and (max-width: 500px) {
+        width: 330px;
+        height: 420px;
+      }
+      .pic-name-details {
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 500px) {
+          flex-direction: column;
+        }
+        .my-pic-contact {
+          width: 150px;
+          height: 150px;
+          img {
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0px 20px $heading-2-color;
+            filter: grayscale(30%);
+          }
+          .flip-me {
+            position: relative;
+            left: -30px;
+            top: 30px;
+            @media screen and (max-width: 500px) {
+              left: -100px;
+              top: 205px;
+            }
+          }
+        }
+        .contact-details {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          margin: 8px;
+          @media screen and (max-width: 500px) {
+            align-items: center;
+          }
+          .name {
+            font-size: 36px;
+            margin: 0px 0px 8px 0px;
+            @media screen and (max-width: 500px) {
+              font-size: 30px;
+            }
+          }
+          .job {
+            margin-top: 0px;
+            @media screen and (max-width: 500px) {
+              font-size: 20px;
+            }
+          }
+          .mobile-num {
+            font-weight: normal;
+          }
+          i {
+            line-height: 28px;
+          }
+          i:hover,
+          .mobile-num:hover {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+  .flip-me {
+    background: none;
+    border: none;
+    align-self: flex-start;
+    padding: 10px 20px;
+    transform: rotate(-15deg);
+    cursor: pointer;
+  }
+  .flip-me:hover {
+    font-weight: 800;
+  }
+}

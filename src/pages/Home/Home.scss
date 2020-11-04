@@ -1,3 +1,5 @@
+@import "../../assets/variables.scss";
+
 .home {
   display: flex;
   flex-direction: column;
@@ -17,7 +19,7 @@
     font-size: calc(10px + 4vw);
     h1 {
       font-family: "Kaushan Script", cursive;
-      color: #6d6875;
+      color: $heading-1-color;
     }
   }
   .job {
@@ -25,7 +27,7 @@
       font-size: calc(5px + 3vw);
       font-family: "Amatic SC", cursive;
       font-family: "Itim", cursive;
-      color: #b5838d;
+      color: $heading-2-color;
     }
   }
 }

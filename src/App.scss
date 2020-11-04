@@ -1,34 +1,27 @@
+@import "../src/assets/variables.scss";
+
 * {
   font-family: "Roboto", sans-serif;
   outline: none;
+  box-sizing: border-box;
+  color: $heading-1-color;
+  text-decoration: none;
 }
 
-body {
-  margin: 0px;
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-  margin: 4px;
-  padding: 0px 8px;
+  flex: 1 0 auto;
 }
 
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  li {
-    margin: 30px;
-    a {
-      text-decoration: none;
-      color: #6d6875;
-      font-size: 20px;
-    }
-  }
-  .active {
-    background-color: #ffcdb2;
-    padding: 10px;
-    border-radius: 8px;
-  }
+body,
+html {
+  height: 100%;
+  margin: 0px;
 }
 
 .pics-skills-tools-container {
@@ -43,7 +36,3 @@ body {
     border-radius: 50%;
   }
 }
-
-/* Footer start */
-
-/* Footer end */
