@@ -1,0 +1,49 @@
+@import "../../assets/variables.scss";
+
+.about-me {
+  font-size: 1.1em;
+  width: 70vw;
+  height: 1000px;
+  padding: 20px 50px;
+  background: $background-color + 15%;
+  border-radius: 8px;
+  @media screen and (max-width: 800px) {
+    width: 90vw;
+  }
+  .pic-and-intro {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-me-pic {
+      width: 250px;
+      @media screen and (max-width: 500px) {
+        width: 150px;
+      }
+      img {
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0px 20px $heading-2-color;
+        filter: grayscale(30%);
+      }
+    }
+    .intro {
+      display: flex;
+      flex-direction: column;
+      padding-left: 12px;
+      .intro-description {
+        line-height: 32px;
+      }
+      .tech-wrapper {
+        padding-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}

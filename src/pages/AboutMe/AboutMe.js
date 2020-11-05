@@ -1,11 +1,11 @@
 import React from "react";
-import PicSkillsAndTools from "./PicSkillsAndTools";
+import "./AboutMe.scss";
+import PicAndIntro from "../../components/PicAndIntro/PicAndIntro";
 
-const AboutMe = () => {
+const AboutMe = ({ technologies }) => {
   return (
-    <section>
-      <h1> About Me</h1>
-      <PicSkillsAndTools />
+    <section className="about-me-wrapper">
+      <PicAndIntro technologies={technologies} />
     </section>
   );
 };

@@ -4,8 +4,15 @@
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   li {
     margin: 30px;
+    @media screen and (max-width: 800px) {
+      margin: 16px;
+    }
     a {
       color: #6d6875;
       font-size: 20px;

@@ -8,6 +8,7 @@ import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import technologies from "./data/technologies";
 
 const App = () => {
   return (
@@ -16,7 +17,10 @@ const App = () => {
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about-me" component={AboutMe} />
+          <Route
+            path="/about-me"
+            render={() => <AboutMe technologies={technologies} />}
+          />
           <Route path="/projects" component={Projects} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
