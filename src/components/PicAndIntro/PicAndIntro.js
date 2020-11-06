@@ -1,6 +1,8 @@
 import React from "react";
+import IntroDescription from "./IntroDescription";
 import Technologies from "../Technologies/Technologies";
 import "./PicAndIntro.scss";
+import JourneyToTech from "./JourneyToTech";
 
 const PicAndIntro = ({ technologies }) => {
   return (
@@ -11,13 +13,7 @@ const PicAndIntro = ({ technologies }) => {
         </div>
         <div className="intro">
           <div className="intro-description">
-            <p>
-              Hi there! I’m Gladys and I'm based in Dublin, Ireland. I’m an
-              experienced Chemical Engineer who is looking for a career
-              transition as a Software Developer, focusing on Front-End. I’ve
-              created web responsive web applications using the following
-              technologies:
-            </p>
+            <IntroDescription />
           </div>
           <div className="tech-wrapper">
             {technologies.map((technology) => (
@@ -25,6 +21,11 @@ const PicAndIntro = ({ technologies }) => {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="journey-to-tech">
+        <h1>My Journey to Tech</h1>
+        <JourneyToTech />
       </div>
     </div>
   );

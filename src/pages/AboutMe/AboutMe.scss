@@ -3,32 +3,5 @@
 .about-me-wrapper {
   display: flex;
   justify-content: center;
-  .about-me {
-    width: 70vw;
-    height: 1000px;
-    padding: 20px 50px;
-    background: $background-color + 15%;
-    border-radius: 8px;
-    .pic-and-intro {
-      display: flex;
-      justify-content: space-around;
-      padding-top: 40px;
-      .about-me-pic {
-        width: 250px;
-        // flex-grow: 1;
-        img {
-          width: 100%;
-          border-radius: 50%;
-          box-shadow: 0 0px 20px $heading-2-color;
-          filter: grayscale(30%);
-        }
-      }
-      .intro {
-        width: 500px;
-        .intro-description {
-          line-height: 32px;
-        }
-      }
-    }
-  }
+
 }
