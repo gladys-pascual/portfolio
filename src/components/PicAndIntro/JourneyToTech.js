@@ -4,11 +4,11 @@ const JourneyToTech = () => {
   return (
     <>
       <p>
-        I’m aware of the opportunities and flexibility that a career in tech can
-        offer, not only here in Dublin but also around the world. I couldn’t
-        afford to quit my full-time job, therefore a part-time course was my
-        option. I started with a five-week Coursera course on HTML, CSS and
-        Javascript for Web Developers, which gave me strong fundamentals on
+        I have been aware of the opportunities and flexibility that a career in
+        tech can offer, not only here in Ireland, but also around the world. I
+        couldn’t afford to quit my full-time job, therefore a part-time course
+        was my option. I started with a five-week Coursera course on HTML, CSS
+        and Javascript for Web Developers, which gave me strong fundamentals on
         HTML, CSS and Bootstrap and more importantly,{" "}
         <strong>strengthened my passion for coding </strong>
         and web development. I quickly realised that becoming a Front-End Web
@@ -28,8 +28,8 @@ const JourneyToTech = () => {
           management and routing.
         </li>
         <li>
-          Responsive design using Flexbox layout model, Bootstrap framework &
-          SASS pre-processor.
+          Responsive design using Flexbox layout model SASS pre-processor, and
+          Bootstrap framework.
         </li>
         <li>
           Version control using Git and GitHub in projects, involving working in
@@ -65,8 +65,8 @@ const JourneyToTech = () => {
       </p>
       <p>
         <strong>
-          I am currently looking for Junior Software Developer opportunities,
-          with focus in Front-End.
+          I am currently open for Junior Software Developer opportunities, with
+          focus in Front-End.
         </strong>
       </p>
     </>

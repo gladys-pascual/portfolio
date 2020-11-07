@@ -6,7 +6,7 @@ import JourneyToTech from "./JourneyToTech";
 
 const PicAndIntro = ({ technologies }) => {
   return (
-    <div className="about-me">
+    <div className="pics-and-intro-wrapper">
       <div className="pic-and-intro">
         <div className="about-me-pic">
           <img src="pictures/mypic.jpg" alt="Gladys Pascual" />
@@ -23,9 +23,11 @@ const PicAndIntro = ({ technologies }) => {
         </div>
       </div>
 
-      <div className="journey-to-tech">
-        <h1>My Journey to Tech</h1>
-        <JourneyToTech />
+      <div className="journey-to-tech-wrapper">
+        <div className="journey-to-tech">
+          <h1>My Journey to Tech</h1>
+          <JourneyToTech />
+        </div>
       </div>
     </div>
   );
