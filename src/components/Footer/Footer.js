@@ -7,7 +7,7 @@ const Footer = () => {
       <ul className="footer-socials">
         <li>
           <a
-            href="https://github.com/gladys-pascual/cheese-website"
+            href="https://github.com/gladys-pascual"
             target="_blank"
             rel="noopener noreferrer"
           >
