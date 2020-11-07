@@ -1,10 +1,10 @@
 import React from "react";
 import IntroDescription from "./IntroDescription";
 import Technologies from "../Technologies/Technologies";
-import "./PicAndIntro.scss";
+import "./AboutMeContent.scss";
 import JourneyToTech from "./JourneyToTech";
 
-const PicAndIntro = ({ technologies }) => {
+const AboutMeContent = ({ technologies }) => {
   return (
     <div className="pics-and-intro-wrapper">
       <div className="pic-and-intro">
@@ -33,4 +33,4 @@ const PicAndIntro = ({ technologies }) => {
   );
 };
 
-export default PicAndIntro;
+export default AboutMeContent;

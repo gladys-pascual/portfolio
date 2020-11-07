@@ -1,0 +1,17 @@
+.personal-wrapper {
+  display: flex;
+  justify-content: center;
+  .personal {
+    width: 55vw;
+    ul li {
+      list-style-type: none;
+      display: flex;
+      i {
+        padding-top: 8px;
+      }
+      .personal-bullet-points {
+        padding-left: 12px;
+      }
+    }
+  }
+}
