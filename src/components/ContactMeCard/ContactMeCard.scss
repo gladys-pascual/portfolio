@@ -9,7 +9,7 @@
       width: 500px;
       height: 270px;
       background-color: rgb(252, 240, 239);
-      box-shadow: rgb(136, 136, 136) 10px 10px 8px;
+      box-shadow: $box-shadow;
       display: flex;
       flex-direction: column;
       @media screen and (max-width: 500px) {

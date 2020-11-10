@@ -1,10 +1,14 @@
 import React from "react";
+import BudgetApp from "../../components/Project/BudgetApp";
+import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <section className="Projects">
-      <h1> Projects </h1>
-    </section>
+    <div className="projects-wrapper">
+      <div className="projects">
+        <BudgetApp />
+      </div>
+    </div>
   );
 };
 
