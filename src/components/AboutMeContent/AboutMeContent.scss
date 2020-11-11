@@ -57,17 +57,19 @@
           font-size: 24px;
         }
       }
-      .journey-to-tech-details ul li {
-        list-style-type: none;
-        display: flex;
-        i {
-          padding-top: 8px;
-        }
-        .wild-code-school-bullet-points {
-          padding-left: 12px;
+      .journey-to-tech-details ul {
+        padding-left: 0px;
+        li {
+          list-style-type: none;
+          display: flex;
+          i {
+            padding-top: 8px;
+          }
+          .wild-code-school-bullet-points {
+            padding-left: 12px;
+          }
         }
       }
-
     }
   }
 }

@@ -10,9 +10,9 @@ const JourneyToTech = () => {
         was my option. I started with a five-week Coursera course on HTML, CSS
         and Javascript for Web Developers, which gave me strong fundamentals on
         HTML, CSS and Bootstrap and more importantly,
-        <strong>strengthened my passion for coding and web development</strong>.
-        I quickly realised that becoming a Software Developer is the right path
-        for me.
+        <strong> strengthened my passion for coding and web development</strong>
+        . I quickly realised that becoming a Software Developer is the right
+        path for me.
       </p>
 
       <p>

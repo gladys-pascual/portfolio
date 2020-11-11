@@ -34,9 +34,9 @@ const BudgetApp = () => {
         </p>
         <div className="description-wrapper">
           <p className="description">
-            MoneyMe is a Full-Stack web application where I used React for the
-            Front-End & Serverless framework using Amazon Web Services (AWS) for
-            the Back-End.
+            MoneyMe is a full-stack budget tracker web application where I used
+            React for the Front-End & Serverless framework using Amazon Web
+            Services (AWS) for the Back-End.
           </p>
         </div>
         <div className="budget-img-wrapper-wrapper">

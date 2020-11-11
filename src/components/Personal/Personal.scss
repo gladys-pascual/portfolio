@@ -3,14 +3,17 @@
   justify-content: center;
   .personal {
     width: 55vw;
-    ul li {
-      list-style-type: none;
-      display: flex;
-      i {
-        padding-top: 8px;
-      }
-      .personal-bullet-points {
-        padding-left: 12px;
+    ul {
+      padding-left: 0px;
+      li {
+        list-style-type: none;
+        display: flex;
+        i {
+          padding-top: 8px;
+        }
+        .personal-bullet-points {
+          padding-left: 12px;
+        }
       }
     }
   }
