@@ -1,0 +1,57 @@
+@import "../../assets/variables.scss";
+
+.react-project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  .react-project {
+    width: 38vw;
+    background: $background-color;
+    box-shadow: $box-shadow;
+    margin-bottom: 40px;
+    @media screen and (max-width: 1200px) {
+      width: 80vw;
+    }
+    @media screen and (max-width: 800px) {
+      width: 90vw;
+    }
+    .react-img-wrapper-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .react-img-wrapper {
+        width: 35vw;
+        @media screen and (max-width: 1200px) {
+          width: 50vw;
+        }
+        @media screen and (max-width: 800px) {
+          width: 70vw;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .react-description-wrapper {
+      display: flex;
+      justify-content: center;
+      .react-description {
+        width: 35vw;
+        text-align: left;
+        @media screen and (max-width: 1200px) {
+          width: 50vw;
+        }
+        @media screen and (max-width: 800px) {
+          width: 70vw;
+        }
+
+        h3 {
+          letter-spacing: 2px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

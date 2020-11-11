@@ -6,6 +6,9 @@
   .projects {
     width: 80vw;
     line-height: 24px;
+    @media screen and (max-width: 800px) {
+      width: 90vw;
+    }
   }
 }
 
@@ -13,31 +16,32 @@
   background: $background-color;
   box-shadow: $box-shadow;
   padding: 20px;
-  .title-and-links {
-    padding: 8px 20px;
-    text-align: center;
-    .project-title {
-      text-transform: uppercase;
-      letter-spacing: 4px;
+  margin-bottom: 80px;
+}
+
+.title-and-links {
+  padding: 8px 20px;
+  text-align: center;
+  .project-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .project-links {
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    a {
+      text-decoration: underline;
     }
-    .project-links {
-      font-weight: 600;
-      letter-spacing: 2px;
-      line-height: 24px;
-      text-transform: uppercase;
-      margin-bottom: 0px;
-      a {
-        text-decoration: underline;
-      }
-    }
-    .description-wrapper {
-      padding-left: 20px;
-      display: flex;
-      justify-content: center;
-      .description {
-        width: 600px;
-        font-style: italic;
-      }
+  }
+  .description-wrapper {
+    display: flex;
+    justify-content: center;
+    .description {
+      width: 600px;
+      font-style: italic;
     }
   }
 }
@@ -56,35 +60,55 @@
   }
 }
 
-//SCSS for main projects
 .main-project {
   display: flex;
-  align-items: center;
+
   @media screen and (max-width: 1200px) {
     flex-direction: column;
     align-items: center;
   }
+}
 
-  .lhs {
-    .main-projects-img-wrapper {
-      padding-left: 20px;
-      width: 600px;
-      margin: 0px;
-      img {
-        width: 100%;
-      }
+.budget-app {
+  padding: 0px 3vw;
+}
+
+.projects-img-wrapper-wrapper {
+  display: flex;
+  justify-content: center;
+  .projects-img-wrapper {
+    width: 600px;
+    margin: 0px;
+    @media screen and (max-width: 800px) {
+      width: 70vw;
+    }
+    img {
+      width: 100%;
     }
   }
-  .rhs {
-    margin-left: 40px;
-    @media screen and (max-width: 1200px) {
-      padding: 20px;
-      margin-left: 0px;
-      width: 600px;
+}
+
+.budget-img-wrapper-wrapper {
+  display: flex;
+  justify-content: center;
+  .budget-img-wrapper {
+    width: 600px;
+    margin: 0px;
+    img {
+      width: 100%;
     }
-    h3 {
-      margin-top: 16px;
-      letter-spacing: 2px;
-    }
+  }
+}
+
+.lhs,
+.rhs {
+  margin-left: 40px;
+  @media screen and (max-width: 1200px) {
+    padding: 0px 5vw;
+    margin-left: 0px;
+  }
+  h3 {
+    margin-top: 16px;
+    letter-spacing: 2px;
   }
 }

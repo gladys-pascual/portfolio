@@ -4,12 +4,11 @@ const BudgetApp = () => {
   return (
     <div className="budget-app-wrapper project-wrapper">
       <div className="title-and-links">
-        {" "}
         <h2 className="project-title">Budget Tracker App</h2>
         <p className="project-links">
           <span>
             <a
-              href="https://www.moneyme.cf/login"
+              href="https://www.moneyme.cf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -17,7 +16,7 @@ const BudgetApp = () => {
             </a>{" "}
             |{" "}
             <a
-              href="https://www.moneyme.cf/login"
+              href="https://github.com/gladys-pascual/my-money-front-end-react"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +24,7 @@ const BudgetApp = () => {
             </a>{" "}
             |{" "}
             <a
-              href="https://www.moneyme.cf/login"
+              href="https://github.com/gladys-pascual/my-money-back-end-transaction-service"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,17 +39,17 @@ const BudgetApp = () => {
             the Back-End.
           </p>
         </div>
-      </div>
-      <div className="budget-app main-project">
-        <div className="lhs">
-          <div className="main-projects-img-wrapper">
+        <div className="budget-img-wrapper-wrapper">
+          <div className="budget-img-wrapper">
             <img
               src="./pictures/projects/create.gif"
               alt="creating transaction on budget app"
             />
           </div>
         </div>
-        <div className="rhs">
+      </div>
+      <div className="main-project budget-app">
+        <div className="lhs">
           <h3> App Features:</h3>
           <ul className="app-features-list">
             <li>
@@ -63,8 +62,8 @@ const BudgetApp = () => {
             <li>
               <i className="fas fa-piggy-bank" aria-hidden="true"></i>
               <span className="project-bullet-points">
-                Once logged in, the user can create, update & delete a
-                transaction, and view a list of all transactions.
+                Create, update & delete a transaction, and view a list of all
+                transactions.
               </span>
             </li>
             <li>
@@ -76,19 +75,16 @@ const BudgetApp = () => {
             <li>
               <i className="fas fa-piggy-bank" aria-hidden="true"></i>
               <span className="project-bullet-points">
-                For the back-end, I created and deployed a CRUD (Create, Read,
-                Update and Delete) service.
-              </span>
-            </li>
-            <li>
-              <i className="fas fa-piggy-bank" aria-hidden="true"></i>
-              <span className="project-bullet-points">
-                Created through AWS Lambda functions and exposing them as
-                RESTful APIs using Amazon API Gateway.
+                Deployed a CRUD service for the back-end through AWS Lambda
+                functions and exposing them as RESTful APIs using Amazon API
+                Gateway.
               </span>
             </li>
           </ul>
-          <h3>Technologies:</h3>
+        </div>
+
+        <div className="rhs">
+          <h3>Technologies & Libraries:</h3>
           <ul className="app-features-list">
             <li>
               <i className="fa fa-code" aria-hidden="true"></i>
@@ -101,6 +97,13 @@ const BudgetApp = () => {
               <span className="project-bullet-points">
                 AWS Lambda | AWS API Gateway | DynamoDB | Serverless framework |
                 YML
+              </span>
+            </li>
+            <li>
+              <i className="fas fa-book-reader" aria-hidden="true"></i>
+              <span className="project-bullet-points">
+                react-router-dom | axios | day.js | react hook form | react day
+                picker | react-modal | nivo/pie | querystring
               </span>
             </li>
           </ul>
