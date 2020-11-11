@@ -1,21 +1,25 @@
 @import "../../assets/variables.scss";
 
-.navbar ul {
+.navbar ul .dropdown-content {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  padding-left: 0px;
   @media screen and (max-width: 800px) {
-    justify-content: center;
-    flex-wrap: wrap;
+    display: none;
   }
+
   li {
     margin: 30px;
     @media screen and (max-width: 800px) {
-      margin: 16px;
+      margin: 12px;
     }
     a {
       color: #6d6875;
       font-size: 20px;
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+      }
     }
   }
   .active {
@@ -23,5 +27,33 @@
     padding: 10px;
     border-radius: 4px;
     color: white;
+  }
+}
+
+.dropdown {
+  @media screen and (max-width: 800px) {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    .dropdown-content {
+      display: none;
+    }
+  }
+}
+
+.dropbtn {
+  display: none;
+  @media screen and (max-width: 800px) {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 28px;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  @media screen and (max-width: 800px) {
+    display: block;
   }
 }
