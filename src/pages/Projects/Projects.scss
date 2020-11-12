@@ -38,14 +38,14 @@
       text-decoration: underline;
     }
   }
-  .description-wrapper {
-    display: flex;
-    justify-content: center;
-    .description {
-      width: 600px;
-      font-style: italic;
-    }
-  }
+}
+.description-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.description {
+  width: 700px;
+  font-style: italic;
 }
 
 .app-features-list {
