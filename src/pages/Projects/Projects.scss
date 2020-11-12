@@ -19,13 +19,15 @@
   margin-bottom: 80px;
 }
 
+.project-title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
 .title-and-links {
   padding: 8px 20px;
   text-align: center;
-  .project-title {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
+
   .project-links {
     font-weight: 600;
     letter-spacing: 2px;
