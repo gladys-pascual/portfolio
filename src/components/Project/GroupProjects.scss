@@ -39,25 +39,24 @@
         }
       }
     }
-  }
-}
+    .group-description-wrapper {
+      display: flex;
+      justify-content: center;
+      .group-description {
+        width: 35vw;
+        text-align: left;
+        @media screen and (max-width: 1200px) {
+          width: 50vw;
+        }
+        @media screen and (max-width: 800px) {
+          width: 70vw;
+        }
 
-.group-description-wrapper {
-  display: flex;
-  justify-content: center;
-  .group-description {
-    width: 35vw;
-    text-align: left;
-    @media screen and (max-width: 1200px) {
-      width: 50vw;
-    }
-    @media screen and (max-width: 800px) {
-      width: 70vw;
-    }
-
-    h3 {
-      letter-spacing: 2px;
-      text-align: left;
+        h3 {
+          letter-spacing: 2px;
+          text-align: left;
+        }
+      }
     }
   }
 }
