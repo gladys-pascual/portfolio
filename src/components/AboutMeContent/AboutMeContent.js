@@ -3,6 +3,7 @@ import IntroDescription from "./IntroDescription";
 import Technologies from "../Technologies/Technologies";
 import "./AboutMeContent.scss";
 import JourneyToTech from "./JourneyToTech";
+import Timeline from "../../components/Timeline/Timeline";
 
 const AboutMeContent = ({ technologies }) => {
   return (
@@ -26,6 +27,7 @@ const AboutMeContent = ({ technologies }) => {
       <div className="journey-to-tech-wrapper">
         <div className="journey-to-tech">
           <h1>My Journey to Tech</h1>
+          <Timeline />
           <JourneyToTech />
         </div>
       </div>

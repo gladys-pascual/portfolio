@@ -7,19 +7,30 @@ const JourneyToTech = () => {
         I have been aware of the opportunities and flexibility that a career in
         tech can offer, not only here in Ireland, but also around the world. I
         couldn’t afford to quit my full-time job, therefore a part-time course
-        was my option. I started with a five-week Coursera course on HTML, CSS
-        and Javascript for Web Developers, which gave me strong fundamentals on
-        HTML, CSS and Bootstrap and more importantly,
-        <strong> strengthened my passion for coding and web development</strong>
-        . I quickly realised that becoming a Software Developer is the right
-        path for me.
+        was my option.
       </p>
 
+      <div>
+        <h3>March to April 2020</h3>
+        <p>
+          I started with a five-week Coursera course on HTML, CSS and Javascript
+          for Web Developers, which gave me strong fundamentals on HTML, CSS and
+          Bootstrap and more importantly,
+          <strong>
+            {" "}
+            strengthened my passion for coding and web development
+          </strong>
+          . I quickly realised that becoming a Software Developer is the right
+          path for me.
+        </p>
+      </div>
+
+      <h3>April to October 2020</h3>
       <p>
-        From from April to October 2020, I did Wild Code School’s remote,
-        part-time Front-End Developer Course, which was aimed to provide
-        technical knowledge and experience for a role as a Front-End Software
-        Developer. This includes:
+        I then continued my journey with Wild Code School’s remote, part-time
+        Front-End Developer Course, which was aimed to provide technical
+        knowledge and experience for a role as a Front-End Software Developer.
+        This includes:
       </p>
       <ul>
         <li>
@@ -115,19 +126,21 @@ const JourneyToTech = () => {
         </a>
         .
       </p>
+      <h3>Present</h3>
       <p>
         I am keen to further develop my skills as a Software Developer,
         especially in the back-end, which led me to starting Code Institute's
         part-time Diploma in Full Stack Software Development in October 2020. In
         this course, I will be further enhancing my front-end skills while
-        upskilling my back-end knowledge by learning Python and Django.
+        upskilling my back-end knowledge by learning Python and Django in
+        conjuction with MongoDB to process and present information.
       </p>
       <p>
-        <strong>
+        <h3>
           I am now looking for Junior Software Developer opportunities where I
           can fulfill my passion for coding and progress my coding skills
           further.
-        </strong>
+        </h3>
       </p>
     </div>
   );
