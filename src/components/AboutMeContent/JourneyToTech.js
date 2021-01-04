@@ -126,21 +126,19 @@ const JourneyToTech = () => {
         </a>
         .
       </p>
-      <h3>Present</h3>
+      <h3>October 2020 to Present</h3>
       <p>
         I am keen to further develop my skills as a Software Developer,
         especially in the back-end, which led me to starting Code Institute's
         part-time Diploma in Full Stack Software Development in October 2020. In
-        this course, I will be further enhancing my front-end skills while
-        upskilling my back-end knowledge by learning Python and Django in
-        conjuction with MongoDB to process and present information.
+        this course, I will be further enhancing my front-end skills by learning
+        jQuery and test-driven development using Jasmine, while upskilling my
+        back-end knowledge by learning Python and Django in conjuction with
+        MongoDB to process and present information.
       </p>
-      <p>
-        <h3>
-          I am now looking for Junior Software Developer opportunities where I
-          can fulfill my passion for coding and progress my coding skills
-          further.
-        </h3>
+      <p className="looking-for-job">
+        I am looking for Junior Software Developer opportunities where I can
+        fulfill my passion for coding and progress my coding skills further.
       </p>
     </div>
   );

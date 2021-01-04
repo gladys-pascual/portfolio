@@ -85,7 +85,6 @@ const Timeline = () => {
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        // className="vertical-timeline-element--work"
         contentStyle={{ background: "white" }}
         date="May  - Sep 2013"
         iconStyle={{ background: "white", color: "white" }}
@@ -98,7 +97,6 @@ const Timeline = () => {
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        // className="vertical-timeline-element--education"
         contentStyle={{ background: "white" }}
         date="2010 -  2014"
         iconStyle={{ background: "white" }}

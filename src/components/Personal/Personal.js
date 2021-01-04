@@ -26,7 +26,7 @@ const Personal = () => {
             <i className="fa fa-heart" aria-hidden="true"></i>
             <span className="personal-bullet-points">
               I enjoy being active. I dabbled in some running and triathlon, did
-              CrossFit for years, and now enjoying weightlifting.
+              CrossFit for years, and now enjoy weightlifting.
             </span>
           </li>
           <li>
