@@ -111,11 +111,11 @@ const JourneyToTech = () => {
       </ul>
       <p>
         I’m determined to develop to becoming a <i>T-Shaped </i>
-        software developer, with in-depth focus in front-end but have basic
-        knowledge of the back-end. Therefore, I have immersed myself in learning
-        some back-end by creating a CRUD service using AWS Lambda functions and
-        expose them as RESTful APIs using Amazon API Gateway, which I then used
-        as part of my <span> </span>
+        software developer, with an in-depth focus on the front-end but have a
+        broad knowledge of the back-end. Therefore, I have immersed myself in
+        learning some back-end by creating a CRUD service using AWS Lambda
+        functions and expose them as RESTful APIs using Amazon API Gateway,
+        which I then used as part of my <span> </span>
         <a
           href="https://www.moneyme.cf/login"
           target="_blank"
@@ -129,11 +129,11 @@ const JourneyToTech = () => {
       <h3>October 2020 to Present</h3>
       <p>
         I am keen to further develop my skills as a Software Developer,
-        especially in the back-end, which led me to starting Code Institute's
+        especially in the back-end, which led me to start Code Institute's
         part-time Diploma in Full Stack Software Development in October 2020. In
         this course, I will be further enhancing my front-end skills by learning
         jQuery and test-driven development using Jasmine, while upskilling my
-        back-end knowledge by learning Python and Django in conjuction with
+        back-end knowledge by learning Python and Django in conjunction with
         MongoDB to process and present information.
       </p>
       <p className="looking-for-job">
