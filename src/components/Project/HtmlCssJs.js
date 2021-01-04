@@ -14,6 +14,40 @@ const HtmlCssJs = () => {
       <div className="html-project-wrapper">
         <div className="html-project">
           <div className="title-and-links">
+            <h2 className="project-title "> Crinkle Sprinkle</h2>
+            <p className="project-links">
+              <span>
+                <a
+                  href="https://gladys-pascual.github.io/crinklesprinkle/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>{" "}
+                |{" "}
+                <a
+                  href="https://github.com/gladys-pascual/crinklesprinkle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Repo
+                </a>
+              </span>
+            </p>
+            <i>HTML | CSS</i>
+            <div className="html-img-wrapper-wrapper">
+              <div className="html-img-wrapper">
+                <img
+                  src="./pictures/projects/crinklesprinkle.gif"
+                  alt="Crinkle Sprinkle website"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="html-project">
+          <div className="title-and-links">
             <h2 className="project-title">Meme Generator</h2>
             <p className="project-links">
               <span>
@@ -70,7 +104,6 @@ const HtmlCssJs = () => {
               </span>
             </p>
             <i>HTML | CSS</i>
-
             <div className="html-img-wrapper-wrapper">
               <div className="html-img-wrapper">
                 <img
