@@ -8,6 +8,7 @@ import WorkIcon from "../../assets/icons/WorkIcon";
 import EducationIcon from "../../assets/icons/EducationIcon";
 import BornIcon from "../../assets/icons/BornIcon";
 import HomeIcon from "../../assets/icons/HomeIcon";
+import "./Timeline.scss";
 
 const Timeline = () => {
   return (
@@ -21,7 +22,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Diploma in Full Stack Software Development (Part Time, Remote)
         </h4>
-        <p>Code Institute</p>
+        <p className="timeline-text">Code Institute</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -31,9 +32,9 @@ const Timeline = () => {
         icon={<EducationIcon />}
       >
         <h4 className="vertical-timeline-element-subtitle">
-          Front-End Web Development Course (Part Time, Remote)
+          Front-End Web Development Course, React focus (Part Time, Remote)
         </h4>
-        <p>Wild Code School</p>
+        <p className="timeline-text">Wild Code School</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -45,7 +46,9 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           HTML, CSS, and Javascript for Web Developers - 5 Week Course
         </h4>
-        <p>Johns Hopkins University delivered through Coursera</p>
+        <p className="timeline-text">
+          Johns Hopkins University delivered through Coursera
+        </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -57,7 +60,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Process Development Engineer II
         </h4>
-        <p>APC Ltd, Cherrywood, Dublin 18</p>
+        <p className="timeline-text">APC Ltd, Cherrywood, Dublin 18</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -69,7 +72,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Manufacturing Science & Technology PhD Intern
         </h4>
-        <p>Brystol-Myers Squibb, Co. Dublin</p>
+        <p className="timeline-text">Brystol-Myers Squibb, Co. Dublin</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -81,7 +84,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           PhD Chemical Engineering
         </h4>
-        <p>University College Dublin</p>
+        <p className="timeline-text">University College Dublin</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -93,7 +96,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           Process Engineering Co-op Student
         </h4>
-        <p>Roche Ireland Limited, Co. Clare</p>
+        <p className="timeline-text">Roche Ireland Limited, Co. Clare</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -105,7 +108,7 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">
           BE Chemical Engineering (1.1)
         </h4>
-        <p>University College Dublin</p>
+        <p className="timeline-text">University College Dublin</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -113,14 +116,14 @@ const Timeline = () => {
         icon={<HomeIcon />}
         date="2006"
       >
-        <p>Moved to Athenry, Co Galway, Ireland</p>
+        <p className="timeline-text">Moved to Athenry, Co Galway, Ireland</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         iconStyle={{ background: "white" }}
         icon={<BornIcon />}
       >
-        <p>Born in Manila, Philippines</p>
+        <p className="timeline-text">Born in Manila, Philippines</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
