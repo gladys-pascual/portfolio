@@ -15,7 +15,11 @@
     }
   }
 }
+
 .links {
   text-decoration: underline;
-  font-weight: 600;
+}
+
+.links:hover {
+  color: grey;
 }
