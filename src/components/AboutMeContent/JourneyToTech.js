@@ -4,7 +4,7 @@ const JourneyToTech = () => {
   return (
     <div className="journey-to-tech-details">
       <p className="italic">
-        You can read more about my Journey to Tech in this{" "}
+        You can read more about my journey to world of tech in this{" "}
         <a
           href="https://irishtechnews.ie/using-lockdown-to-career-change-into-tech/"
           target="_blank"
@@ -122,12 +122,13 @@ const JourneyToTech = () => {
         </li>
       </ul>
       <p>
-        I’m determined to develop to becoming a <i>T-Shaped </i>
-        software developer, with an in-depth focus on the front-end but have a
-        broad knowledge of the back-end. Therefore, I have immersed myself in
-        learning some back-end by creating a CRUD service using AWS Lambda
-        functions and expose them as RESTful APIs using Amazon API Gateway,
-        which I then used as part of my <span> </span>
+        I’m determined to develop to becoming a{" "}
+        <span className="t-shape">T-shaped</span> software developer, with an
+        in-depth focus on the front-end but have a broad knowledge of the
+        back-end. Therefore, I have immersed myself in learning some back-end by
+        creating a CRUD service using AWS Lambda functions and expose them as
+        RESTful APIs using Amazon API Gateway, which I then used as part of my{" "}
+        <span> </span>
         <a
           href="https://www.moneyme.cf/login"
           target="_blank"

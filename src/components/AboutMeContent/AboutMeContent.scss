@@ -68,6 +68,13 @@
           font-size: 24px;
         }
       }
+
+      .t-shape {
+        font-weight: 800;
+        background-color: $highlight + 30%;
+        padding: 2px 4px;
+      }
+
       .journey-to-tech-details h3 {
         font-family: "Lato", sans-serif;
         font-weight: 300;
@@ -87,6 +94,7 @@
           }
         }
       }
+
       .looking-for-job {
         background-color: $highlight;
         padding: 8px;
