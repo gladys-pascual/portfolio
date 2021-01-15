@@ -113,6 +113,12 @@
     .image-gallery-thumbnail:hover {
       border: 2px solid #51e4d7;
     }
+
+    @media screen and (max-width: 500px) {
+      .image-gallery-description {
+        bottom: initial;
+      }
+    }
   }
 }
 /* Style for budget app images modal end*/
