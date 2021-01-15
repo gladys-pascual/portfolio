@@ -1,6 +1,7 @@
 import React from "react";
+import BudgetAppImages from "./BudgetAppImages";
 
-const BudgetApp = () => {
+const BudgetApp = ({ images }) => {
   return (
     <div className="budget-app-wrapper project-wrapper">
       <div className="title-and-links">
@@ -39,12 +40,10 @@ const BudgetApp = () => {
             Services (AWS) for the Back-End.
           </p>
         </div>
+
         <div className="budget-img-wrapper-wrapper">
           <div className="budget-img-wrapper">
-            <img
-              src="./pictures/projects/create.gif"
-              alt="creating transaction on budget app"
-            />
+            <BudgetAppImages images={images} />
           </div>
         </div>
       </div>

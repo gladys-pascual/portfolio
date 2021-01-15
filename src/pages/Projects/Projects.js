@@ -7,11 +7,11 @@ import ReactProjects from "../../components/Project/ReactProjects";
 import ReactTraining from "../../components/Project/ReactTraining";
 import "./Projects.scss";
 
-const Projects = () => {
+const Projects = ({ images }) => {
   return (
     <div className="projects-wrapper">
       <div className="projects">
-        <BudgetApp />
+        <BudgetApp images={images} />
         <MovieApp />
         <ReactProjects />
         <GroupProjects />

@@ -9,6 +9,7 @@ import Contact from "./pages/Contact/Contact";
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import technologies from "./data/technologies";
+import images from "./data/budgetPictures";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
             path="/about-me"
             render={() => <AboutMe technologies={technologies} />}
           />
-          <Route path="/projects" component={Projects} />
+          <Route path="/projects" render={() => <Projects images={images} />} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
         </Switch>
