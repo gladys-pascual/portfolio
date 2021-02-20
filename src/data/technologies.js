@@ -2,17 +2,17 @@ const technologies = [
   {
     key: 1,
     title: "React",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/react.svg",
+    imgUrl: "./pictures/projects/technologies/React.svg",
   },
   {
     key: 2,
     title: "JavaScript",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/javascript-4.svg",
+    imgUrl: "./pictures/projects/technologies/JS.svg",
   },
   {
     key: 3,
     title: "HTML",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/html-5.svg",
+    imgUrl: "./pictures/projects/technologies/HTML.svg",
   },
   {
     key: 4,
