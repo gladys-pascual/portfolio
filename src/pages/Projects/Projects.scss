@@ -39,6 +39,7 @@
     }
   }
 }
+
 .description-wrapper {
   display: flex;
   justify-content: center;
@@ -65,6 +66,7 @@
 .main-project {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   @media screen and (max-width: 1200px) {
     flex-direction: column;
@@ -90,6 +92,7 @@
     }
   }
 }
+
 /* Style for the budget app images modal. Need to tidy up styling in the future. */
 @import "~react-image-gallery/styles/css/image-gallery.css";
 .budget-img-wrapper-wrapper {
