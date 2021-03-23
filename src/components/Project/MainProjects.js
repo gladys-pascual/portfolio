@@ -21,6 +21,9 @@ const MainProjects = ({ mainProject }) => {
       case "Moive & TV Show Search App":
         bullet = "fas fa-video";
         break;
+      case "Complex To Do":
+        bullet = "far fa-check-square";
+        break;
       default:
     }
     return bullet;

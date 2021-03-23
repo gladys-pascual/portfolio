@@ -8,10 +8,10 @@ const mainProjects = [
       "StockFinder is an interactive web application created using the Finnhub API.",
     img: "./pictures/projects/stockfinder.gif",
     appFeatures: [
-      "Search for a specific company stock, with auto-complete feature.",
-      "View a summary of the company stock.",
-      "See a graph of the cost of stocks during various timelines (5D, 1M, 3M, 1Y & 5Y).",
-      "See the currentt analysis on the stock on whether to buy or sell.",
+      "Search for a specific stock, with auto-complete feature.",
+      "Summary of the company stock.",
+      "See a graph of stocks cost in various timelines (5D, 1M, 3M, 1Y & 5Y).",
+      "See the current analysis on whether to buy or sell the stock.",
       "View the current news about the stock.",
       "View the latest market news.",
     ],
@@ -35,6 +35,25 @@ const mainProjects = [
     technologies: "JavaScript | React | HTML | CSS | SASS | Flexbox",
     libraries:
       "react-router-dom | react-animated-heart | react-rater | react-spinners",
+  },
+  {
+    key: 3,
+    title: "Complex To Do",
+    deployedLink: "https://complextodo.netlify.app/login",
+    repo: "https://github.com/gladys-pascual/complex-to-do",
+    description:
+      "A slightly more complex to-do list, purely Front-End focused.",
+    img: "./pictures/projects/complex-to-do.gif",
+    appFeatures: [
+      "Front-end focused project, no database. Information is saved in the state, therefore data will reset when browser is refreshed.",
+      "Log-in & sign-up forms, where inputs will be saved in the local storage.",
+      "To test the app, enter any email address & password. ",
+      "Create a list, add task to a list, and add subtasks.",
+      "Edit tasks, mark tasks and subtasks done.",
+      "Delete a list, task, or subtask.",
+    ],
+    technologies: "JavaScript | React | HTML | CSS | SASS | Flexbox",
+    libraries: "react-hook-form | react-router-dom ",
   },
 ];
 

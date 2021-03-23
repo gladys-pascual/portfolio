@@ -61,6 +61,13 @@ const BudgetApp = ({ images }) => {
             <li>
               <i className="fas fa-piggy-bank" aria-hidden="true"></i>
               <span className="project-bullet-points">
+                To test, use gladyskate@gmail.com for email and TestPassw0rd for
+                the password.
+              </span>
+            </li>
+            <li>
+              <i className="fas fa-piggy-bank" aria-hidden="true"></i>
+              <span className="project-bullet-points">
                 Create, update & delete a transaction, and view a list of all
                 transactions.
               </span>
