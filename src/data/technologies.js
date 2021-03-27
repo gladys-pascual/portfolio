@@ -2,7 +2,7 @@ const technologies = [
   {
     key: 1,
     title: "React",
-    imgUrl: "./pictures/projects/technologies/React.svg",
+    imgUrl: "./pictures/projects/technologies/React.png",
   },
   {
     key: 2,
@@ -17,22 +17,17 @@ const technologies = [
   {
     key: 4,
     title: "CSS",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/css-5.svg",
+    imgUrl: "./pictures/projects/technologies/CSS.png",
   },
   {
     key: 5,
     title: "SASS",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
+    imgUrl: "./pictures/projects/technologies/SASS.svg",
   },
   {
     key: 6,
     title: "Bootstrap",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg",
-  },
-  {
-    key: 7,
-    title: "AWS",
-    imgUrl: "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
+    imgUrl: "./pictures/projects/technologies/bootstrap.svg",
   },
 ];
 

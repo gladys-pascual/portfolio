@@ -68,7 +68,11 @@
           font-size: 24px;
         }
       }
-
+      .passion {
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-decoration: underline;
+      }
       .t-shape {
         font-weight: 800;
         background-color: $highlight + 30%;

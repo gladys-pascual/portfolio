@@ -39,6 +39,11 @@ const BudgetApp = ({ images }) => {
             React for the Front-End & Serverless framework using Amazon Web
             Services (AWS) for the Back-End.
           </p>
+          <p className="to-test">
+            To test, use:
+            <p>Email: gladyskate@gmail.com</p>
+            <p>Password: TestPassw0rd</p>
+          </p>
         </div>
 
         <div className="budget-img-wrapper-wrapper">
@@ -56,13 +61,6 @@ const BudgetApp = ({ images }) => {
               <span className="project-bullet-points">
                 Authentication integration, using Auth0, to allow for sign up
                 and log in.
-              </span>
-            </li>
-            <li>
-              <i className="fas fa-piggy-bank" aria-hidden="true"></i>
-              <span className="project-bullet-points">
-                To test, use gladyskate@gmail.com for email and TestPassw0rd for
-                the password.
               </span>
             </li>
             <li>
