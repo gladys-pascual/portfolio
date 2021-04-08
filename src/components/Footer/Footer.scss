@@ -2,13 +2,13 @@
 
 .footer-section {
   background-color: $hover-color;
-  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   .footer-socials {
     padding-left: 0px;
+    padding: 8px;
     li {
       list-style-type: none;
       padding: 5px;

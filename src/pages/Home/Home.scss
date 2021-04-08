@@ -1,39 +1,100 @@
 @import "../../assets/variables.scss";
 
-.home {
-  display: flex;
-  flex-direction: column;
-
-  .my-name,
-  .job {
-    display: flex;
-    justify-content: center;
-    h1,
-    h2 {
-      margin: 10px;
-      animation: 4s ease 0s 1 normal none running welcomeAnim;
-    }
-  }
-  .my-name {
-    padding-top: 15vh;
-    font-size: calc(10px + 4vw);
-    h1 {
-      font-family: "Kaushan Script", cursive;
-      color: $heading-1-color;
-    }
-  }
-  .job {
-    h2 {
-      font-size: calc(5px + 3vw);
-      font-family: "Amatic SC", cursive;
-      font-family: "Itim", cursive;
-      color: $heading-2-color;
-    }
-  }
-}
-
 @keyframes welcomeAnim {
   0% {
     font-size: calc(10px + 2vw);
+  }
+}
+
+@keyframes banner-zoom {
+  from {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.home {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-self: center;
+
+  .banner-image {
+    width: 100vw;
+
+    img {
+      width: 100%;
+      opacity: 0.3;
+      animation-name: banner-zoom;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+    }
+
+    .background-image-tablet,
+    .background-image-mobile {
+      display: none;
+    }
+    @media screen and (max-width: 1000px) {
+      .background-image-desktop,
+      .background-image-mobile {
+        display: none;
+      }
+      .background-image-tablet {
+        display: inline;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .background-image-desktop,
+      .background-image-tablet {
+        display: none;
+      }
+      .background-image-mobile {
+        display: inline;
+      }
+    }
+  }
+
+  .banner-text {
+    align-self: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3b3a3a;
+    @media screen and (max-width: 900px) {
+      top: 30%;
+    }
+    .my-name,
+    .job {
+      display: flex;
+      justify-content: center;
+      h1,
+      h2 {
+        margin: 10px;
+        animation: 4s ease 0s 1 normal none running welcomeAnim;
+      }
+    }
+    .my-name {
+      width: 80vw;
+      padding-top: 15vh;
+      font-size: calc(10px + 4vw);
+
+      h1 {
+        font-family: "Kaushan Script", cursive;
+      }
+    }
+    .job {
+      h2 {
+        font-size: calc(10px + 3vw);
+        font-family: "Amatic SC", cursive;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
