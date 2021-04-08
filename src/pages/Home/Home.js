@@ -8,17 +8,17 @@ const Home = () => {
         <div className="banner-image">
           <img
             src="../../pictures/background.jpg"
-            alt="background image"
+            alt="background for desktop"
             className="background-image-desktop"
           />{" "}
           <img
             src="../../pictures/background-tablet.jpg"
-            alt="background image"
+            alt="background for tablet"
             className="background-image-tablet"
           />
           <img
             src="../../pictures/background-mobile.jpg"
-            alt="background image"
+            alt="background for mobile"
             className="background-image-mobile"
           />
         </div>
