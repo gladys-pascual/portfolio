@@ -6,7 +6,7 @@ const CardBack = ({ handleClick }) => {
     <section className="flip-card-back">
       <div className="pic-name-details">
         <div className="my-pic-contact">
-          <img src="pictures/mypic.jpg" alt="Gladys Pascual" />
+          <img src="pictures/glads1sq.jpg" alt="Gladys Pascual" />
           <button onClick={handleClick} className="flip-me">
             {" "}
             ((( Flip Me ))){" "}

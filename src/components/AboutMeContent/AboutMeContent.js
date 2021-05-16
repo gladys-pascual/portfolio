@@ -10,7 +10,7 @@ const AboutMeContent = ({ technologies }) => {
     <div className="pics-and-intro-wrapper">
       <div className="pic-and-intro">
         <div className="about-me-pic">
-          <img src="pictures/mypic.jpg" alt="Gladys Pascual" />
+          <img src="pictures/glads1sq.jpg" alt="Gladys Pascual" />
         </div>
         <div className="intro">
           <div className="intro-description">
