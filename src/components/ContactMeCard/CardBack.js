@@ -14,7 +14,7 @@ const CardBack = ({ handleClick }) => {
         </div>
         <div className="contact-details">
           <h1 className="name">Gladys Pascual</h1>
-          <h2 className="job">Software Developer</h2>
+          <h2 className="job">Software Engineer</h2>
 
           <i className="fa fa-mobile" aria-hidden="true">
             <span>

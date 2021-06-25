@@ -1,3 +1,5 @@
+@import "../../assets/variables.scss";
+
 .vertical-timeline-element-subtitle {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -11,4 +13,18 @@
 .timeline-text {
   letter-spacing: 2px;
   text-align: center;
+}
+
+.personio-logo-wrapper {
+  margin: 20px 5vw 0px 5vw;
+  @media screen and (max-width: 1169px) {
+    margin: 20px 10vw 0px 10vw;
+  }
+  .personio-logo {
+    width: 100%;
+  }
+}
+
+.personio-logo-link:hover {
+  background-color: $background-color;
 }

@@ -32,8 +32,8 @@ const Personal = () => {
           <li>
             <i className="fa fa-paw" aria-hidden="true"></i>
             <span className="personal-bullet-points">
-              Dog lover who 'dog-sits' for friends when they are on holidays.
-              Hoping to have my own puppy soon!
+              Dog lover who occasionally dog-sits for friends. Hoping to have my
+              own puppy soon!
             </span>
           </li>
         </ul>

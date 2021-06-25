@@ -3,18 +3,6 @@ import React from "react";
 const JourneyToTech = () => {
   return (
     <div className="journey-to-tech-details">
-      <p className="italic">
-        You can read more about my journey to world of tech in this{" "}
-        <a
-          href="https://irishtechnews.ie/using-lockdown-to-career-change-into-tech/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="links"
-        >
-          interview
-        </a>
-        .
-      </p>
       <p>
         I have been aware of the opportunities and flexibility that a career in
         tech can offer, not only here in Ireland, but also around the world. I
@@ -148,10 +136,6 @@ const JourneyToTech = () => {
         jQuery and test-driven development using Jasmine, while upskilling my
         back-end knowledge by learning Python and Django in conjunction with
         MongoDB to process and present information.
-      </p>
-      <p className="looking-for-job">
-        I am looking for Junior Software Developer opportunities where I can
-        fulfill my passion for coding and progress my coding skills further.
       </p>
     </div>
   );
