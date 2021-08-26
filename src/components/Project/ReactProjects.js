@@ -162,7 +162,7 @@ const ReactProjects = () => {
           <p className="project-links">
             <span>
               <a
-                href="https://www.coffeegram.cf/"
+                href="https://coffee-gram.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

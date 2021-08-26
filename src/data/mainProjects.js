@@ -21,7 +21,7 @@ const mainProjects = [
   {
     key: 2,
     title: "Moive & TV Show Search App",
-    deployedLink: "https://www.showme.cf",
+    deployedLink: "https://movie-tv-search-app.netlify.app/",
     repo: "https://github.com/gladys-pascual/movie-tv-search-app",
     description:
       "ShowMe is a Movie & TV show searching web app created using the TMDb API.",

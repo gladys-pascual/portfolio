@@ -12,7 +12,7 @@ const Personal = () => {
             <span className="personal-bullet-points">
               I love drinking and making coffee - checkout my{" "}
               <a
-                href="https://www.coffeegram.cf/"
+                href="https://coffee-gram.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="links"
@@ -33,7 +33,7 @@ const Personal = () => {
             <i className="fa fa-paw" aria-hidden="true"></i>
             <span className="personal-bullet-points">
               Dog lover who occasionally dog-sits for friends. Hoping to have my
-              own puppy soon!
+              own puppy someday!
             </span>
           </li>
         </ul>
