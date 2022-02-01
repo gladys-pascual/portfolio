@@ -10,7 +10,6 @@ const ContactMeCard = () => {
     e.preventDefault();
     setIsFlipped((prevState) => !prevState);
   };
-  console.log(isFlipped);
 
   return (
     <div className="flip-card-wrapper">

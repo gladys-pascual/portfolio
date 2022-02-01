@@ -1,5 +1,5 @@
-import React from "react";
-import "./ContactMeCard.scss";
+import React from 'react';
+import './ContactMeCard.scss';
 
 const CardFront = ({ handleClick }) => {
   return (
@@ -10,8 +10,7 @@ const CardFront = ({ handleClick }) => {
         className="card-title"
       />
       <button onClick={handleClick} className="flip-me">
-        {" "}
-        ((( Flip Me ))){" "}
+        ((( Flip Me )))
       </button>
     </section>
   );

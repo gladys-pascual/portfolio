@@ -8,8 +8,7 @@ const CardBack = ({ handleClick }) => {
         <div className="my-pic-contact">
           <img src="pictures/glads1sq.jpg" alt="Gladys Pascual" />
           <button onClick={handleClick} className="flip-me">
-            {" "}
-            ((( Flip Me ))){" "}
+            ((( Flip Me )))
           </button>
         </div>
         <div className="contact-details">
