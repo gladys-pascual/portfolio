@@ -9,7 +9,7 @@ const BudgetApp = ({ images }) => {
         <p className="project-links">
           <span>
             <a
-              href="https://www.moneyme.cf"
+              href="https://money-me.netlify.app/login"
               target="_blank"
               rel="noopener noreferrer"
             >
