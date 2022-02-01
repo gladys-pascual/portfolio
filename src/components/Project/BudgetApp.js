@@ -1,9 +1,9 @@
-import React from "react";
-import BudgetAppImages from "./BudgetAppImages";
+import React from 'react';
+import BudgetAppImages from './BudgetAppImages';
 
 const BudgetApp = ({ images }) => {
   return (
-    <div className="budget-app-wrapper project-wrapper">
+    <div className="project-wrapper">
       <div className="title-and-links">
         <h2 className="project-title">Budget Tracker App</h2>
         <p className="project-links">
@@ -14,16 +14,16 @@ const BudgetApp = ({ images }) => {
               rel="noopener noreferrer"
             >
               Live
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a
               href="https://github.com/gladys-pascual/my-money-front-end-react"
               target="_blank"
               rel="noopener noreferrer"
             >
               Repo - FE
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a
               href="https://github.com/gladys-pascual/my-money-back-end-transaction-service"
               target="_blank"
@@ -35,25 +35,24 @@ const BudgetApp = ({ images }) => {
         </p>
         <div className="description-wrapper">
           <p className="description">
-            MoneyMe is a full-stack budget tracker web application where I used
-            React for the Front-End & Serverless framework using Amazon Web
-            Services (AWS) for the Back-End.
+            MoneyMe is budget tracker web application to help track your
+            expenses
           </p>
           <p className="to-test">
-            To test, use:
-            <p>Email: gladyskate@gmail.com</p>
-            <p>Password: TestPassw0rd</p>
+            To test, use: Email: gladyskate@gmail.com; Password: TestPassw0rd
           </p>
-        </div>
-
-        <div className="budget-img-wrapper-wrapper">
-          <div className="budget-img-wrapper">
-            <BudgetAppImages images={images} />
-          </div>
         </div>
       </div>
       <div className="main-project budget-app">
         <div className="lhs">
+          <div className="projects-img-wrapper-wrapper">
+            <div className="projects-img-wrapper">
+              <BudgetAppImages images={images} />
+            </div>
+          </div>
+        </div>
+
+        <div className="rhs">
           <h3> App Features:</h3>
           <ul className="app-features-list">
             <li>
@@ -85,9 +84,6 @@ const BudgetApp = ({ images }) => {
               </span>
             </li>
           </ul>
-        </div>
-
-        <div className="rhs">
           <h3>Technologies & Libraries:</h3>
           <ul className="app-features-list">
             <li>
