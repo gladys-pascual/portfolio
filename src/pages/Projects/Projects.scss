@@ -1,4 +1,4 @@
-@import "../../assets/variables.scss";
+@import '../../assets/variables.scss';
 
 .projects-wrapper {
   display: flex;
@@ -103,7 +103,7 @@
 }
 
 /* Style for the budget app images modal. Need to tidy up styling in the future. */
-@import "~react-image-gallery/styles/css/image-gallery.css";
+@import '~react-image-gallery/styles/css/image-gallery.css';
 .budget-img-wrapper-wrapper {
   display: flex;
   justify-content: center;

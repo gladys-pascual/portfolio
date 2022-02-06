@@ -62,18 +62,6 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           contentStyle={{ background: 'white' }}
-          date="Nov 2018 - Apr 2021"
-          iconStyle={{ background: 'white' }}
-          icon={<WorkIcon />}
-        >
-          <h4 className="vertical-timeline-element-subtitle">
-            Process Development Engineer II
-          </h4>
-          <p className="timeline-text">APC Ltd, Cherrywood, Dublin 18</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          contentStyle={{ background: 'white' }}
           date="Oct 2020"
           iconStyle={{ background: 'white' }}
           icon={<EducationIcon />}
@@ -82,6 +70,18 @@ const Timeline = () => {
             Front-End Web Development Course, React focus (Part Time, Remote)
           </h4>
           <p className="timeline-text">Wild Code School</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          contentStyle={{ background: 'white' }}
+          date="Nov 2018 - Apr 2021"
+          iconStyle={{ background: 'white' }}
+          icon={<WorkIcon />}
+        >
+          <h4 className="vertical-timeline-element-subtitle">
+            Process Development Engineer II
+          </h4>
+          <p className="timeline-text">APC Ltd, Cherrywood, Dublin 18</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

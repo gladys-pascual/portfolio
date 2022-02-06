@@ -66,13 +66,8 @@ const BudgetApp = ({ images }) => {
               <i className="fas fa-piggy-bank" aria-hidden="true"></i>
               <span className="project-bullet-points">
                 Create, update & delete a transaction, and view a list of all
-                transactions.
-              </span>
-            </li>
-            <li>
-              <i className="fas fa-piggy-bank" aria-hidden="true"></i>
-              <span className="project-bullet-points">
-                See a summary of all transactions through a pie chart.
+                transactions. See a summary of all transactions through a pie
+                chart.
               </span>
             </li>
             <li>
