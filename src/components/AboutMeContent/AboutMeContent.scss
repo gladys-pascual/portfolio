@@ -1,4 +1,4 @@
-@import "../../assets/variables.scss";
+@import '../../assets/variables.scss';
 
 .pics-and-intro-wrapper {
   .pic-and-intro {
@@ -53,7 +53,7 @@
       padding-top: 52px;
       width: 55vw;
       h1 {
-        font-family: "Lato", sans-serif;
+        font-family: 'Lato', sans-serif;
         font-weight: 300;
         letter-spacing: 4px;
         text-align: center;
@@ -74,12 +74,12 @@
       }
       .t-shape {
         font-weight: 800;
-        background-color: $highlight + 30%;
+        background-color: $highlight;
         padding: 2px 4px;
       }
 
       .journey-to-tech-details h3 {
-        font-family: "Lato", sans-serif;
+        font-family: 'Lato', sans-serif;
         font-weight: 300;
         letter-spacing: 4px;
         font-size: 24px;
